@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#MyBox{
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    max-width:500px;
+    border-radius: 10px;
+    
+
+}
+
+#H1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+   
+}
+
+.schools{
+    padding: 10px 15px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+#kirachi{
+    background-color: hsl(195, 53%, 60%);
+    border: none;
+    color: white;
+
+}
+
+#mashati{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+
+#kilamacho{
+    background-color: lightgreen;
+    border: none;
+    color: white;
+}
+
+#kisale{
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+}
+
+
+#mraokeryo{
+    background-color: hsl(0, 0%, 50%);
+    border: none;
+    color: white;
+}
+
+
+#kiraeni{
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+}
+
+
+#olele{
+    background-color: darkslategray;
+    border: none;
+    color: white;
+}
+
+
+#maki{
+    background-color: hsl(300, 100%, 30%);
+    border: none;
+    color: white;
+}
+
+
+#kirachi:active{
+    background-color: hsl(195, 53%, 90%);
+    
+}
+
+
+#kilamacho:active{
+    background-color: hsl(120, 73%, 95%);
+ 
+}
+
+
+#mashati:active{
+    background-color: hsl(271, 76%, 90%);
+   
+}
+#kisale:active{
+    background-color: hsl(80, 61%, 95%);
+   
+}
+
+#prompts{
+  
+    border: 2px solid;
+    padding: 10px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+#prompts button{
+   padding: 10px 15px;
+   margin: 10px 250px;
+   font-weight: bold;
+   font-size: 20px;
+   color: white;
+   background-color: hsl(0, 0%, 45%);
+   border: none;
+   border-radius: 15px;
+   width: 100px;
+   cursor: pointer;
+   font-family: Arial;
+   box-shadow: 2px 4px  black;
+  
+}
+
+#prompts button:hover{
+    opacity: 0.25;
+    color: beige;
+    transition: 0.25s;
+  
+}
+
+#prompts button:active{
+    background-color:red ;
+  
+}
+
+#email{
+    margin-left: 30px;
+
+}
+
+#pswd{
+    padding-left: 10px;
+}
+
+#name{
+    width: 350px;
+    height: 25px;
+    padding-left: 5px;
+}
+#H1 span{
+    color: red;
+    font-family: cursive;
+}
+  
+  
+    
